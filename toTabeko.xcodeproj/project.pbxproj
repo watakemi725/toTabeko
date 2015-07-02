@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46172CB01B45637E00ECD613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46172CAF1B45637E00ECD613 /* AppDelegate.swift */; };
+		46172CB21B45637E00ECD613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46172CB11B45637E00ECD613 /* ViewController.swift */; };
+		46172CB51B45637E00ECD613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46172CB31B45637E00ECD613 /* Main.storyboard */; };
+		46172CB71B45637E00ECD613 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46172CB61B45637E00ECD613 /* Images.xcassets */; };
+		46172CBA1B45637E00ECD613 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46172CB81B45637E00ECD613 /* LaunchScreen.xib */; };
+		46172CC61B45637E00ECD613 /* toTabekoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46172CC51B45637E00ECD613 /* toTabekoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46172CC01B45637E00ECD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46172CA21B45637E00ECD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46172CA91B45637E00ECD613;
+			remoteInfo = toTabeko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46172CAA1B45637E00ECD613 /* toTabeko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toTabeko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46172CAE1B45637E00ECD613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46172CAF1B45637E00ECD613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46172CB11B45637E00ECD613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46172CB41B45637E00ECD613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46172CB61B45637E00ECD613 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46172CB91B45637E00ECD613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		46172CBF1B45637E00ECD613 /* toTabekoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toTabekoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46172CC41B45637E00ECD613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46172CC51B45637E00ECD613 /* toTabekoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toTabekoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46172CA71B45637E00ECD613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46172CBC1B45637E00ECD613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46172CA11B45637E00ECD613 = {
+			isa = PBXGroup;
+			children = (
+				46172CAC1B45637E00ECD613 /* toTabeko */,
+				46172CC21B45637E00ECD613 /* toTabekoTests */,
+				46172CAB1B45637E00ECD613 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46172CAB1B45637E00ECD613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46172CAA1B45637E00ECD613 /* toTabeko.app */,
+				46172CBF1B45637E00ECD613 /* toTabekoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46172CAC1B45637E00ECD613 /* toTabeko */ = {
+			isa = PBXGroup;
+			children = (
+				46172CAF1B45637E00ECD613 /* AppDelegate.swift */,
+				46172CB11B45637E00ECD613 /* ViewController.swift */,
+				46172CB31B45637E00ECD613 /* Main.storyboard */,
+				46172CB61B45637E00ECD613 /* Images.xcassets */,
+				46172CB81B45637E00ECD613 /* LaunchScreen.xib */,
+				46172CAD1B45637E00ECD613 /* Supporting Files */,
+			);
+			path = toTabeko;
+			sourceTree = "<group>";
+		};
+		46172CAD1B45637E00ECD613 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46172CAE1B45637E00ECD613 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46172CC21B45637E00ECD613 /* toTabekoTests */ = {
+			isa = PBXGroup;
+			children = (
+				46172CC51B45637E00ECD613 /* toTabekoTests.swift */,
+				46172CC31B45637E00ECD613 /* Supporting Files */,
+			);
+			path = toTabekoTests;
+			sourceTree = "<group>";
+		};
+		46172CC31B45637E00ECD613 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46172CC41B45637E00ECD613 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46172CA91B45637E00ECD613 /* toTabeko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46172CC91B45637E00ECD613 /* Build configuration list for PBXNativeTarget "toTabeko" */;
+			buildPhases = (
+				46172CA61B45637E00ECD613 /* Sources */,
+				46172CA71B45637E00ECD613 /* Frameworks */,
+				46172CA81B45637E00ECD613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toTabeko;
+			productName = toTabeko;
+			productReference = 46172CAA1B45637E00ECD613 /* toTabeko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46172CBE1B45637E00ECD613 /* toTabekoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46172CCC1B45637E00ECD613 /* Build configuration list for PBXNativeTarget "toTabekoTests" */;
+			buildPhases = (
+				46172CBB1B45637E00ECD613 /* Sources */,
+				46172CBC1B45637E00ECD613 /* Frameworks */,
+				46172CBD1B45637E00ECD613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46172CC11B45637E00ECD613 /* PBXTargetDependency */,
+			);
+			name = toTabekoTests;
+			productName = toTabekoTests;
+			productReference = 46172CBF1B45637E00ECD613 /* toTabekoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46172CA21B45637E00ECD613 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = watakemi725;
+				TargetAttributes = {
+					46172CA91B45637E00ECD613 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					46172CBE1B45637E00ECD613 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 46172CA91B45637E00ECD613;
+					};
+				};
+			};
+			buildConfigurationList = 46172CA51B45637E00ECD613 /* Build configuration list for PBXProject "toTabeko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46172CA11B45637E00ECD613;
+			productRefGroup = 46172CAB1B45637E00ECD613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46172CA91B45637E00ECD613 /* toTabeko */,
+				46172CBE1B45637E00ECD613 /* toTabekoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46172CA81B45637E00ECD613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46172CB51B45637E00ECD613 /* Main.storyboard in Resources */,
+				46172CBA1B45637E00ECD613 /* LaunchScreen.xib in Resources */,
+				46172CB71B45637E00ECD613 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46172CBD1B45637E00ECD613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46172CA61B45637E00ECD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46172CB21B45637E00ECD613 /* ViewController.swift in Sources */,
+				46172CB01B45637E00ECD613 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46172CBB1B45637E00ECD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46172CC61B45637E00ECD613 /* toTabekoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46172CC11B45637E00ECD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46172CA91B45637E00ECD613 /* toTabeko */;
+			targetProxy = 46172CC01B45637E00ECD613 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46172CB31B45637E00ECD613 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46172CB41B45637E00ECD613 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46172CB81B45637E00ECD613 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46172CB91B45637E00ECD613 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46172CC71B45637E00ECD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46172CC81B45637E00ECD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46172CCA1B45637E00ECD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = toTabeko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46172CCB1B45637E00ECD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = toTabeko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46172CCD1B45637E00ECD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = toTabekoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toTabeko.app/toTabeko";
+			};
+			name = Debug;
+		};
+		46172CCE1B45637E00ECD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = toTabekoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toTabeko.app/toTabeko";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46172CA51B45637E00ECD613 /* Build configuration list for PBXProject "toTabeko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46172CC71B45637E00ECD613 /* Debug */,
+				46172CC81B45637E00ECD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46172CC91B45637E00ECD613 /* Build configuration list for PBXNativeTarget "toTabeko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46172CCA1B45637E00ECD613 /* Debug */,
+				46172CCB1B45637E00ECD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46172CCC1B45637E00ECD613 /* Build configuration list for PBXNativeTarget "toTabekoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46172CCD1B45637E00ECD613 /* Debug */,
+				46172CCE1B45637E00ECD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46172CA21B45637E00ECD613 /* Project object */;
+}
