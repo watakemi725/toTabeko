@@ -10,6 +10,9 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var firstNum: Int?
+    var secondNum: Int?
 
     var window: UIWindow?
 

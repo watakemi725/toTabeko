@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecViewController.swift
 //  toTabeko
 //
 //  Created by Takemi Watanuki on 2015/07/02.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecViewController: UIViewController {
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate //AppDelegateのインスタンスを取得
     
-    @IBOutlet var tasizan1: UITextField!
+    
+    @IBOutlet var tasizan2: UITextField!
     @IBOutlet var result: UILabel!
     
     override func viewDidLoad() {
@@ -25,15 +26,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func resultButton(sender: UIButton) {
-        var x1 = tasizan1.text.toInt()!
         
-        appDelegate.firstNum = x1
-        println(x1)
-        
-        result.text=String(x1)
+        var x2 = tasizan2.text.toInt()!
+        appDelegate.secondNum = x2
+  result.text = String(x2)
         
         
     }
-    
 }
-

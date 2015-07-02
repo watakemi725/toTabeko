@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ThirdViewController.swift
 //  toTabeko
 //
 //  Created by Takemi Watanuki on 2015/07/02.
@@ -8,15 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ThirdViewController: UIViewController {
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate //AppDelegateのインスタンスを取得
     
-    @IBOutlet var tasizan1: UITextField!
     @IBOutlet var result: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //保存していた値たちを取り出してきて計算する
+        var x1 = appDelegate.firstNum
+        var x2 = appDelegate.secondNum
+        
+        var y = x1! + x2!
+        
+        result.text = String(y)
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -25,15 +33,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func resultButton(sender: UIButton) {
-        var x1 = tasizan1.text.toInt()!
-        
-        appDelegate.firstNum = x1
-        println(x1)
-        
-        result.text=String(x1)
+
         
         
     }
-    
 }
-

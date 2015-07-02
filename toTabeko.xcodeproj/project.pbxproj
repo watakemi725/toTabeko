@@ -13,6 +13,8 @@
 		46172CB71B45637E00ECD613 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46172CB61B45637E00ECD613 /* Images.xcassets */; };
 		46172CBA1B45637E00ECD613 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46172CB81B45637E00ECD613 /* LaunchScreen.xib */; };
 		46172CC61B45637E00ECD613 /* toTabekoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46172CC51B45637E00ECD613 /* toTabekoTests.swift */; };
+		46172CD01B456D0600ECD613 /* SecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46172CCF1B456D0600ECD613 /* SecViewController.swift */; };
+		46172CD21B456D1300ECD613 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46172CD11B456D1300ECD613 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		46172CBF1B45637E00ECD613 /* toTabekoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toTabekoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46172CC41B45637E00ECD613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46172CC51B45637E00ECD613 /* toTabekoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toTabekoTests.swift; sourceTree = "<group>"; };
+		46172CCF1B456D0600ECD613 /* SecViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecViewController.swift; sourceTree = "<group>"; };
+		46172CD11B456D1300ECD613 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				46172CAF1B45637E00ECD613 /* AppDelegate.swift */,
 				46172CB11B45637E00ECD613 /* ViewController.swift */,
+				46172CCF1B456D0600ECD613 /* SecViewController.swift */,
+				46172CD11B456D1300ECD613 /* ThirdViewController.swift */,
 				46172CB31B45637E00ECD613 /* Main.storyboard */,
 				46172CB61B45637E00ECD613 /* Images.xcassets */,
 				46172CB81B45637E00ECD613 /* LaunchScreen.xib */,
@@ -214,6 +220,8 @@
 			files = (
 				46172CB21B45637E00ECD613 /* ViewController.swift in Sources */,
 				46172CB01B45637E00ECD613 /* AppDelegate.swift in Sources */,
+				46172CD21B456D1300ECD613 /* ThirdViewController.swift in Sources */,
+				46172CD01B456D0600ECD613 /* SecViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				46172CCB1B45637E00ECD613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46172CCC1B45637E00ECD613 /* Build configuration list for PBXNativeTarget "toTabekoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				46172CCE1B45637E00ECD613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
